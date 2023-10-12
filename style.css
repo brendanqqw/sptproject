@@ -67,4 +67,31 @@ p {
   /* Additional styles for the section content, such as padding, color, etc. */
 }
 
-/* CONTENT 3 */
+/* BUTTON */
+
+/* Default styles for larger screens */
+.-dv-btn {
+  text-align: center;
+}
+
+.-dv-btn a {
+  background: #ec1c24;
+  border: 4px solid #000;
+  font-size: 29px;
+  color: #000;
+  margin-right: 5px;
+  margin-left: 5px; /* Adjust the margin to your preference */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .-dv-btn {
+    text-align: center;
+  }
+
+  .-dv-btn a {
+    font-size: 16px; /* Adjust the font size for mobile */
+    display: block; /* Make the buttons full-width on smaller screens */
+    margin: 5px 0; /* Adjust the margin for mobile */
+  }
+}
