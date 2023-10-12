@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- BOOTSTRAP 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Group 6</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navBar">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="navBar-brand" href="#">Group 6</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <!-- Added 'active' class here -->
+              <a class="nav-link active" id="nav-Link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-Link" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <div class="header-image">
+      <header>
+        <img src="images/header.svg" alt="header" />
+      </header>
+    </div>
+
+    <!-- CONTENTS -->
+
+    <!-- topics at a glance -->
+    <br />
+    <section id="topics">
+      <div class="container-md">
+        <div class="text-center">
+          <p>
+            Welcome to our comprehensive awareness campaign that aims to educate
+            and empower individuals and communities to be prepared and stay safe
+            during geological and natural events, specifically earthquakes and
+            typhoons. In this campaign, we will provide valuable information and
+            actionable steps on how you can contribute to government efforts in
+            reducing damage caused by these events.
+            <br /><br />
+          </p>
+          <br />
+          <p class="lead text-muted">
+            A quick glance at the topics you'll learn
+          </p>
+        </div>
+        <div class="row my-5 g-5 justify-content-around align-items-center">
+          <div class="col-6 col-lg-4">
+            <img
+              src="images/are-u-prepared.svg"
+              class="img-fluid"
+              alt="prepared girl"
+            />
+          </div>
+          <div class="col-lg-6">
+            <!-- accordion -->
+            <div class="accordion" id="chapters">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-1">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#chapter-1"
+                    aria-expanded="true"
+                    aria-controls="chapter-1"
+                  >
+                    Chapter 1 - Earthquakes
+                  </button>
+                </h2>
+                <div
+                  id="chapter-1"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="heading-1"
+                  data-bs-parent="#chapters"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      <strong
+                        >What are earthquakes and how do they occur?</strong
+                      >
+                      Earthquakes are the result of the Earth's tectonic plates
+                      moving and interacting along their boundaries. This
+                      interaction generates stress in the Earth's crust, which
+                      can lead to a sudden release of energy in the form of
+                      seismic waves, causing the ground to shake. Earthquakes
+                      occur at plate boundaries, where plates can diverge,
+                      converge, or slide past each other, as well as in some
+                      intraplate regions.
+                    </p>
+                    <p>
+                      <strong
+                        >Understanding earthquake magnitude and
+                        intensity.</strong
+                      >
+                      Understanding earthquake magnitude involves measuring the
+                      energy released at the earthquake's source, often using
+                      scales like Richter or moment magnitude. In contrast,
+                      earthquake intensity assesses the effects at specific
+                      locations, varying based on factors like distance from the
+                      epicenter, local geology, and building construction.
+                      Magnitude indicates the earthquake's strength, while
+                      intensity describes its impact on the ground and
+                      structures.
+                    </p>
+                    <p>
+                      <strong>Recognizing earthquake-prone regions.</strong>
+                      The Philippines is situated in a seismically active region
+                      due to its location along the Pacific Ring of Fire, making
+                      it earthquake-prone. The archipelago is at the convergent
+                      boundary of the Philippine Sea Plate and the Eurasian
+                      Plate, with several fault systems, including the
+                      Philippine Fault and the Manila Trench, running through
+                      the country. This geological setting increases the risk of
+                      earthquakes, and preparedness, adherence to building
+                      codes, and early warning systems are crucial to mitigate
+                      the impact of seismic events in the Philippines.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-2">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#chapter-2"
+                    aria-expanded="false"
+                    aria-controls="chapter-2"
+                  >
+                    Chapter 2 - Typhoons
+                  </button>
+                </h2>
+                <div
+                  id="chapter-2"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-2"
+                  data-bs-parent="#chapters"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      <strong>What are typhoons and how do they form?</strong>
+                      Typhoons are powerful tropical cyclones that form over
+                      warm ocean waters. They develop when sea surface
+                      temperatures exceed 26°C (79°F), causing warm, moist air
+                      to rise and create low-pressure systems. As the air
+                      spirals inward, it intensifies, forming a typhoon.
+                    </p>
+                    <p>
+                      <strong
+                        >Understanding typhoon categories and their
+                        impact.</strong
+                      >
+                      Earthquakes are the result of the Earth's tectonic plates
+                      moving and interacting along their boundaries. This
+                      interaction generates stress in the Earth's crust, which
+                      can lead to a sudden release of energy in the form of
+                      seismic waves, causing the ground to shake. Earthquakes
+                      occur at plate boundaries, where plates can diverge,
+                      converge, or slide past each other, as well as in some
+                      intraplate regions.
+                    </p>
+                    <p>
+                      <strong>Identifying typhoon-prone areas.</strong>
+                      Typhoon-prone areas are typically found in the western
+                      Pacific Ocean, especially in regions like the Philippines,
+                      Japan, and Southeast Asia, where warm ocean waters provide
+                      ideal conditions for typhoon formation. Coastal regions
+                      near these areas are at higher risk of typhoon impact.
+                      Preparedness and early warning systems are vital for
+                      minimizing typhoon-related disasters in these regions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-3">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#chapter-3"
+                    aria-expanded="false"
+                    aria-controls="chapter-1"
+                  >
+                    Chapter 3 - Earthquake Preparedness
+                  </button>
+                </h2>
+                <div
+                  id="chapter-3"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-3"
+                  data-bs-parent="#chapters"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      <strong>Creating a family emergency plan</strong>
+                    </p>
+                    <p>
+                      <strong>Assembling an earthquake emergency kit</strong>
+                    </p>
+                    <p>
+                      <strong>Securing your home and possessions</strong>
+                    </p>
+                    <p>
+                      <strong
+                        >Identifying safe locations during an earthquake</strong
+                      >
+                    </p>
+                    <p>
+                      <strong
+                        >Educating yourself and your family about evacuation
+                        routes</strong
+                      >
+                    </p>
+                    <p>
+                      <strong
+                        >Participating in earthquake drills and community
+                        exercises</strong
+                      >
+                    </p>
+                    <p>
+                      <strong
+                        >Reporting potential hazards and infrastructure
+                        weaknesses</strong
+                      >
+                    </p>
+                    <p>
+                      <strong
+                        >Volunteering with local disaster response
+                        organizations.
+                      </strong>
+                    </p>
+                    <p>
+                      <strong
+                        >Supporting and advocating for earthquake-resistant
+                        building codes and regulations</strong
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-4">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#chapter-4"
+                    aria-expanded="false"
+                    aria-controls="chapter-4"
+                  >
+                    Chapter 4 - Typhoon Preparedness
+                  </button>
+                </h2>
+                <div
+                  id="chapter-4"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-4"
+                  data-bs-parent="#chapters"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      <strong>Developing a typhoon preparedness plan</strong>
+                    </p>
+                    <p>
+                      <strong>Stocking up on essential supplies</strong>
+                    </p>
+                    <p>
+                      <strong
+                        >Securing your property and ensuring structural
+                        integrity
+                      </strong>
+                    </p>
+                    <p>
+                      <strong>Knowing evacuation routes and shelters</strong>
+                    </p>
+                    <p>
+                      <strong
+                        >Engaging in community cleanup efforts to reduce debris
+                      </strong>
+                    </p>
+                    <p>
+                      <strong
+                        >Supporting local government initiatives for disaster
+                        management</strong
+                      >
+                    </p>
+                    <p>
+                      <strong>Donating to disaster relief organizations</strong>
+                    </p>
+                    <p>
+                      <strong
+                        >Promoting sustainable practices to mitigate climate
+                        change and reduce typhoon intensity
+                      </strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTENT 2 -->
+    <section class="-sctn-welcome" id="online_enrollment">
+      <br />
+      <br />
+      <br />
+      <div class="-dv-btn">
+        <a
+          href="https://monitoring-dashboard.ndrrmc.gov.ph/"
+          target="_blank"
+          class="btn btn-danger -btn-all-event -new-student"
+          style="
+            background: #ec1c24;
+            border: 4px solid #000;
+            font-size: 29px;
+            color: #000;
+            margin-right: 5px;
+          "
+        >
+          NDRRMC
+        </a>
+        <a
+          href="https://www.pagasa.dost.gov.ph/"
+          target="_blank"
+          class="btn btn-danger -btn-all-event -old-student"
+          style="
+            background: #ec1c24;
+            border: 4px solid #000;
+            font-size: 29px;
+            color: #000;
+            margin-left: 5px;
+          "
+        >
+          PAGASA
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTENT 3 -->
+    <br />
+    <br />
+    <div class="text-center">
+      <p>
+        By taking proactive steps in understanding the threats of earthquakes
+        and typhoons and preparing yourself and your community, you contribute
+        significantly to government efforts in reducing damage during natural
+        disasters. Together, we can build resilient communities that are ready
+        to face these challenges head-on.
+        <br /><br />
+        Join us in spreading awareness and preparedness to ensure a safer future
+        for all. Together, we can make a difference!
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">CARAGA NDRRMC Hotline</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white"
+                    >(085) 815-6345 <br />
+                    342-8753 <br />
+                    341,8629</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Philippine Red Cross Hotline</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">
+                    143 <br />
+                    (02) 527-0000 <br />
+                    (02) 527-8385 to 95</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">BFP Hotline</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">(02) 410-631</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Philippines emergency hotline</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">911</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2023 Copyright Group 6
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
